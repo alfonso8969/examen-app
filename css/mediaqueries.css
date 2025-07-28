@@ -55,7 +55,7 @@
         
     }
 
-    .specialty-card h2 {
+    .specialty-card h3 {
         font-size: 2.4rem;
         text-align: right;
     }
@@ -128,6 +128,11 @@
 
     .specialty-card h2  {
         text-align: center;
+    }
+    
+    .specialty-card h3  {
+        text-align: center;
+        font-size: 1.8rem;
     }
     
     .specialty-img {

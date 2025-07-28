@@ -8,6 +8,7 @@
     --text-color: #333;
     --light-text: #666;
     --bg-color: #f8f6f3;
+    --solid-color-bg: #3a3a3a; /* Fallback color for hero background */
     --white: #ffffff;
     --dark-bg: #1a1a1a;
     --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -145,7 +146,7 @@ img {
  */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url('../images/fondo-cabecera.jpg') center/cover no-repeat;
+                url('../images/fondo-cabecera.jpg') center/cover no-repeat, var(--solid-color-bg);
     height: 80vh;
     display: flex;
     align-items: center;
@@ -233,7 +234,7 @@ img {
     padding: 0.5rem;
 }
 
-.specialty-card h2 {
+.specialty-card h3 {
     color: var(--primary-color);
     margin-bottom: 1rem;
     font-size: 2.3rem;
